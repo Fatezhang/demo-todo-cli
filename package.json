@@ -1,0 +1,23 @@
+{
+  "name": "demo-todo-cli",
+  "version": "1.0.0",
+  "description": "A todo list command line tool.",
+  "main": "src/index.js",
+  "scripts": {
+
+  },
+  "bin": {
+    "todos": "src/index.js"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "type": "module",
+  "author": "Reckless",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.1",
+    "conf": "^11.0.1"
+  }
+}
